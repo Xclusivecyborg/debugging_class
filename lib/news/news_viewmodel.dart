@@ -9,7 +9,6 @@ class NewsViewModel extends StateNotifier<NewsViewState> {
   final PostRepository _postRepository;
 
   void fetchPosts() async {
-    await Future.delayed(const Duration(seconds: 5));
     try {
       final response = await _postRepository.getPosts();
       if (response.success) {
