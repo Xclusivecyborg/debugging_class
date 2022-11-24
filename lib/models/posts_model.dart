@@ -7,8 +7,6 @@ import 'dart:convert';
 
 Posts postsFromJson(String str) => Posts.fromJson(json.decode(str));
 
-
-
 class Posts {
   Posts({
     required this.userId,
@@ -29,24 +27,18 @@ class Posts {
         body: json["body"],
       );
 
-
-
   @override
   String toString() {
     return 'Posts(userId: $userId, id: $id, title: $title, body: $body)';
   }
 }
 
-
-
-
-enum Gender{
+enum Gender {
   male,
   female,
 }
 
-
-enum President{
+enum President {
   buhari,
   jonathan,
 }
