@@ -1,5 +1,5 @@
 import 'package:debugging/core/utils/enums.dart';
-import 'package:debugging/news/news_viewmodel.dart';
+import 'package:debugging/post/news_viewmodel.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
@@ -59,3 +59,27 @@ class _DebugViewState extends ConsumerState<DebugView> {
     );
   }
 }
+
+
+
+
+//GET
+//https://newsapi.org
+//https://newsapi.org/v2/everything?q=tesla&from=2022-12-18&sortBy=publishedAt&apiKey=c5810690c39b416d8b642f75e41612e9
+///
+///
+///Baseurl - https://newsapi.org
+///Path -/v2/everything
+///QueryParameter -?q=tesla&from=2022-12-18&sortBy=publishedAt&apiKey=c5810690c39b416d8b642f75e41612e9
+///
+///{
+
+///}
+///
+///
+// Map<String,dynamic> queryParameters ={
+//   "q": "tesla",
+//   "from": "2022-12-18",
+//   "sortBy": "publishedAt",
+//   "apiKey": "c5810690c39b416d",
+// };

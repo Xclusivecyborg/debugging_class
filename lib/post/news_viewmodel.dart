@@ -1,5 +1,5 @@
 import 'package:debugging/core/utils/enums.dart';
-import 'package:debugging/news/news_view_state.dart';
+import 'package:debugging/post/news_view_state.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../core/repository/news_repository.dart';

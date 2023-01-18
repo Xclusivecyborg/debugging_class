@@ -1,4 +1,5 @@
-import 'package:debugging/news/news_view.dart';
+import 'package:debugging/post/news_view.dart';
+import 'package:debugging/tesla_news/tesla_news.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const DebugView(),
+      home: const TeslaNewsView(),
     );
   }
 }
